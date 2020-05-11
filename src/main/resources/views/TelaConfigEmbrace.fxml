@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane prefHeight="478.0" prefWidth="819.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ind.scenario.embrace.config.controller.TelaConfigEmbrace">
+   <left>
+      <TreeView prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </left>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Arquivo">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Novo" />
+                  <MenuItem mnemonicParsing="false" text="Abrir" />
+                  <Menu mnemonicParsing="false" text="Recentes" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Salvar" />
+                  <MenuItem mnemonicParsing="false" text="Salvar Como" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Fechar" />
+                  <MenuItem mnemonicParsing="false" text="Sair" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Preferências">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Preferências do Sistema" />
+                  <MenuItem mnemonicParsing="false" text="Gerador de Room-Control" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Sistema">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Procurar Atualização" />
+                  <Menu mnemonicParsing="false" text="Exportar KPView...">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="PDF" />
+                        <MenuItem mnemonicParsing="false" text="TXT" />
+                    </items>
+                  </Menu>
+                  <MenuItem mnemonicParsing="false" text="Exportar Integração MON 7" />
+                  <MenuItem mnemonicParsing="false" text="Exportar Circuito de Iluminação" />
+                  <MenuItem mnemonicParsing="false" text="Exportar Comandos Assistente Virtual" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Ajuda" />
+                  <MenuItem mnemonicParsing="false" text="Sobre" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Usuário">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Destravar Automation Controller" />
+                  <MenuItem mnemonicParsing="false" text="Sair" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
