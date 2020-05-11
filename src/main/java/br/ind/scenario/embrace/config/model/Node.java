@@ -16,12 +16,12 @@ public class Node {
     private boolean podeSerAtividade;
     private int indiceTreeView;
 
-    private String nome;
-    private String nome;
-    private String nome;
-    private String nome;
+//    private String nome;
+//    private String nome;
+//    private String nome;
+//    private String nome;
 
 
 
-    FOutputLinks: TLinkArray;
+    //FOutputLinks: TLinkArray;
 }
