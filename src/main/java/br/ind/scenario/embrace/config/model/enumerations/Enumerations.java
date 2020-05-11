@@ -10,3 +10,22 @@ enum TipoClasse {
     tcIFSEI, tcTCL1Classic, tcTCL2Classic, tcTCL3Classic, tcTCL10Classic, tcTCL12Classic, tcTCLSensor6Classic, tcIPM10Classic, tcFeedbackLuminarias,
     tcDispositivoDriverBidirecional, tcProjetoGraficoBloco, tcSensorTeto, tcDimmerVirtual, tcAcionador
 }
+
+enum TipoNotificaoPastaAmbiente {
+    tnpaAlteracaoIndice, tnpaMudancaAmbiente
+}
+
+enum TipoLink {
+    tlPulsadorSup, tlPulsadorInf, tlModoDormir, tlSendPresenca, tlSendOff, tlSendSleep, tlSensor, tlCanais, tlFeedback, tlEntradasCustom, tlModoAuto, tlTeclados, tlNone,
+    tlOpenMomentary, tlCloseMomentary, tlOpenFull, tlCloseFull, tlStop, tlOpenJog, tlCloseJog, tl1Btn, tl2BtnUp, tl2BtnDown, tl1Speed, tl2Speed, tl3Speed, tlSpeedOff,
+    tlVentiladores, tlInput, tlToggle, tlOn, tlOff, tlPanico, tlDesabilitaParcial, tlPisca, tlSirene, tlDevicesOff, tlFeedbackPresenca, tlAcionadorDia, tlAcionadorNoite,
+    tlAcionadorMadrugada, tlEntradaCanal, tlAguaFria, tlAguaQuente, tlBomba, tlAux1, tlAux2, tlAux3, tlBanheiraCheia, tlSensorMaximo, tlSensorMinimo, tlEncher, tlEsvaziar,
+    tlDesligar, tlLimpeza, tlAcionadorAux1, tlAcionadorAux2, tlAcionadorAux3, tlAcionadorBanheiraCheia, tlHidro, tlAcionadorHidro, tlTemperatura, tlFeedbackMaximo,
+    tlFeedbackMinimo, tlDigital, tlAnalogico, tlAnalogicoTempo, tlTexto, tlRede, tlLinkPml, tlCanaisClassic, tlCenasClassic, tlSliderRC, tlGravarCenaDiaSM, tlGravarCenaDiaCM,
+    tlGravarCenaNoiteSM, tlGravarCenaNoiteCM, tlGravarCenaMadrugadaSM, tlGravarCenaMadrugadaCM, tlGravarCenaDormirSM, tlGravarCenaDormirCM, tlGravarCenaOverride,
+    tlGravarCenaCuston, tlML
+}
+
+enum TipoIntegracao {
+    etiIntegracao1, etiIntegracao2
+}
